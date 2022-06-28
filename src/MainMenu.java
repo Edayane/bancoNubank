@@ -27,7 +27,7 @@ public class MainMenu {
         System.out.println("|******* Opção 12- Sair do Sistema  *******************************|");
         System.out.println("********************************************************************");
         System.out.println("");
-        System.out.println();
+       
 			
         System.out.println("Escolha uma Opção do Menu: ");
 		int op = teclado.nextInt();
@@ -65,6 +65,7 @@ public class MainMenu {
         case 7: {
             listarClientes();
             break;
+            
         }
         case 8: {
             listarFuncionarios();
